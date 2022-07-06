@@ -4,7 +4,7 @@ import NewEntry from "./pages/NewEntry";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Index from "./pages/Index";
 import Nav from "./Nav";
-import {useState} from "react"
+import { useState } from "react";
 
 function App() {
   const [entries, setEntries] = useState([]);
